@@ -68,6 +68,7 @@ RUN set -ex; \
     && apt-get install -y --no-install-recommends \
         google-chrome-stable \
 	anydesk
+RUN echo "root:root" | chpasswd
 
 
 ENV UNAME pacat

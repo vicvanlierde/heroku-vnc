@@ -46,5 +46,3 @@ EOF
 
 chmod +x /Desktop/Chromium.desktop
 chmod +x /Desktop/Swicth_to_Chinese_input.sh
-exec supervisord -c /app/supervisord.conf
-passwd root vic
